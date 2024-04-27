@@ -5,6 +5,12 @@ import Auth from "../layouts/Auth/Auth";
 import Login from "../pages/Auth/Login";
 import DashboardHome from "../pages/Main/DashboardHome";
 import Boutiques from "../pages/Main/Boutiques";
+import Shoppers from "../pages/Main/Shoppers";
+import AddBoutiques from "../pages/Main/AddBoutiques";
+import EditBoutiques from "../pages/Main/EditBoutiques";
+import BoutiqueDetails from "../pages/Main/BoutiqueDetails";
+import Drivers from "../pages/Main/Drivers";
+import Notification from "../pages/Main/Notification";
 
 
 
@@ -23,12 +29,28 @@ const router = createBrowserRouter([
           element: <Boutiques/>,
         },
         {
+          path: "/add-boutiques",
+          element: <AddBoutiques/>,
+        },
+        {
+          path: "/edit-boutiques/:id",
+          element: <EditBoutiques/>,
+        },
+        {
+          path: "/boutique-details/:id",
+          element: <BoutiqueDetails/>,
+        },
+        {
           path: "/shoppers",
-          element: "",
+          element: <Shoppers/>,
         },
         {
           path: "/drivers",
-          element: "",
+          element: <Drivers/>,
+        },
+        {
+          path: "/notifications",
+          element: <Notification/>,
         },
       ],
     },

@@ -65,7 +65,7 @@ const Header = () => {
       <div className="flex gap-5">
         {/* <Dropdown overlay={menu} placement="bottomRight" arrow> */}
         <div
-          onClick={(e) => navigate("notification")}
+          onClick={(e) => navigate("notifications")}
           className="relative flex items-center "
         >
           <Badge

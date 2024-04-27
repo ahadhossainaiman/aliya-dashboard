@@ -17,7 +17,7 @@ const Login = () => {
           {/* <!-- Left: Image --> */}
           <div className="w-1/2 h-screen hidden lg:block relative">
             <img
-              src={loginImg}
+              src="https://i.ibb.co/n3yZDdC/image.png"
               alt="Placeholder Image"
               className="object-cover w-full h-full"
             />
