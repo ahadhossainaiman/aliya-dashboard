@@ -228,7 +228,7 @@ const handleSubmit = (values) => {
       </div>
       <div className=" rounded-t-lg mt-[24px] shadow-2xl">
         <div className="flex py-[22px] mx-[20px] justify-between items-center">
-          <p className=" text-[24px] font-medium">Shoppers List</p>
+          <p className=" text-[24px] font-medium">Boutiques List</p>
           <DatePicker
             className="custom-date-picker"
             onChange={onChange}

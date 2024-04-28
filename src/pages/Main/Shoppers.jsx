@@ -213,7 +213,7 @@ const Shoppers = () => {
     return (
         <div className=" ml-[24px]">
         <div className=" flex justify-between items-center">
-          <h1 className="text-[30px] font-medium">Shoppers</h1>
+        <h1 className="text-[30px] text-[#1E66CA] font-bold">Shoppers</h1>
           <DatePicker
             className="custom-date-picker"
             onChange={onChange}
